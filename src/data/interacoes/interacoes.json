@@ -1,0 +1,1059 @@
+[
+  {
+    "med1": "Aciclovir",
+    "med2": "Tenofovir",
+    "symptoms": "Tontura; diarréia; vômito; neuropatia",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos tóxicos do tenofovir (tontura; diarréia; neuropatia; vômito)."
+  },
+  {
+    "med1": "Aciclovir",
+    "med2": "Zidovudina",
+    "symptoms": "Letargia e fadiga grave",
+    "severity": "moderate",
+    "recommendation": "Observar a ocorrência de letargia e fadiga."
+  },
+  {
+    "med1": "Ácido épsilon aminocapróico",
+    "med2": "Tretinoína",
+    "symptoms": "risco de trombose;",
+    "severity": "high",
+    "recommendation": "Monitorar paciente via hemograma, TAP e TTPA. Monitorar o paciente quanto aos sinais clínicos como dor no peito, falta de ar, hemoptise, hematúria, perda súbita da visão, dor, vermelhidão ou inchaço em uma"
+  },
+  {
+    "med1": "Ácido fólico",
+    "med2": "Capecitabina",
+    "symptoms": "Ocorrência de anorexia, ulceração da boca, diarréia com sangue, sangramento vaginal.",
+    "severity": "high",
+    "recommendation": "O uso concomitante deve ser evitado. Os doentes devem ser monitorizados atentamente quanto a toxicidade potencial da capecitabina, como neutropenia, trombocitopenia, estomatite, hemorragia gastrointestinal, diarréia grave, vômito, reações cutâneas, e neuropatia. Monitorar paciente via hemograma."
+  },
+  {
+    "med1": "Amicacina",
+    "med2": "Diclofenaco",
+    "symptoms": "ocorrência de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos nefrotóxicos dos aminoglicosídeos (amicacina/gentamicina)."
+  },
+  {
+    "med1": "Amicacina",
+    "med2": "Ibuprofeno",
+    "symptoms": "ocorrência de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos nefrotóxicos dos aminoglicosídeos (amicacina/gentamicina)."
+  },
+  {
+    "med1": "Amicacina",
+    "med2": "Naproxeno",
+    "symptoms": "ocorrência de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos nefrotóxicos dos aminoglicosídeos (amicacina/gentamicina)."
+  },
+  {
+    "med1": "Gentamicina",
+    "med2": "Diclofenaco",
+    "symptoms": "ocorrência de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos nefrotóxicos dos aminoglicosídeos (amicacina/gentamicina)."
+  },
+  {
+    "med1": "Gentamicina",
+    "med2": "Ibuprofeno",
+    "symptoms": "ocorrência de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos nefrotóxicos dos aminoglicosídeos (amicacina/gentamicina)."
+  },
+  {
+    "med1": "Gentamicina",
+    "med2": "Naproxeno",
+    "symptoms": "ocorrência de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos nefrotóxicos dos aminoglicosídeos (amicacina/gentamicina)."
+  },
+  {
+    "med1": "Amicacina",
+    "med2": "Cefalotina",
+    "symptoms": "ocorrência de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos nefrotóxicos dos aminoglicosídeos (amicacina/gentamicina)."
+  },
+  {
+    "med1": "Gentamicina",
+    "med2": "Cefalotina",
+    "symptoms": "ocorrência de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos nefrotóxicos dos aminoglicosídeos (amicacina/gentamicina)."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Diltiazem",
+    "symptoms": "Bradcardia, parada sinusal e débito cardíaco",
+    "severity": "high",
+    "recommendation": "Considerar modificação da terapia. Monitorar aumento dos efeitos terapêuticos da Amiodarona e sinais de toxicidade."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Verapamil",
+    "symptoms": "Bradcardia, parada sinusal e débito cardíaco",
+    "severity": "high",
+    "recommendation": "Considerar modificação da terapia. Monitorar aumento dos efeitos terapêuticos da Amiodarona e sinais de toxicidade."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Atazanavir",
+    "symptoms": "Arritmias cardíacas potencialmente letais",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser evitado."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Lopinavir",
+    "symptoms": "Arritmias cardíacas potencialmente letais",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser evitado."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Ritonavir",
+    "symptoms": "Arritmias cardíacas potencialmente letais",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser evitado."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Propranolol",
+    "symptoms": "Hipotensão arterial, bradcardia e parada cardíaca",
+    "severity": "high",
+    "recommendation": "Monitorar sinais e sintomas de bradcardia. Monitorar a pressão arterial. Exceção: Atenolol."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Metoprolol",
+    "symptoms": "Hipotensão arterial, bradcardia e parada cardíaca",
+    "severity": "high",
+    "recommendation": "Monitorar sinais e sintomas de bradcardia. Monitorar a pressão arterial. Exceção: Atenolol."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Ciclosporina",
+    "symptoms": "efeito terapêutico da ciclosporina (imunossupressão)",
+    "severity": "moderate",
+    "recommendation": "Considerar modificação na terapia ou ajuste de dose."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Digoxina",
+    "symptoms": "Náusea, vômito e arritmia (toxicidade pela digoxina)",
+    "severity": "moderate",
+    "recommendation": "Considerar modificação da terapia ou redução de um terço da dose da Digoxina. Monitorar efeitos tóxicos (náusea, vômito e arritmia)."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Lidocaína",
+    "symptoms": "Crises convulsivas",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento da toxicidade da Lidocaína (convulsões)."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Amitriptilina",
+    "symptoms": "Arritmias ventriculares",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser feito com cautela. Observar risco-benefício. Monitorar ocorrÊncia de arritmias."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Levofloxacino",
+    "symptoms": "Arritmias ventriculares",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser feito com cautela. Observar risco-benefício. Monitorar ocorrÊncia de arritmias."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Moxifloxacino",
+    "symptoms": "Arritmias ventriculares",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser feito com cautela. Observar risco-benefício. Monitorar ocorrÊncia de arritmias."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Claritromicina",
+    "symptoms": "Arritmias ventriculares",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser feito com cautela. Observar risco-benefício. Monitorar ocorrÊncia de arritmias."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Clorpromazina",
+    "symptoms": "Arritmias ventriculares",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser feito com cautela. Observar risco-benefício. Monitorar ocorrÊncia de arritmias."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Domperidona",
+    "symptoms": "Arritmias ventriculares",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser feito com cautela. Observar risco-benefício. Monitorar ocorrÊncia de arritmias."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Octreotida",
+    "symptoms": "Arritmias ventriculares",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser feito com cautela. Observar risco-benefício. Monitorar ocorrÊncia de arritmias."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Voriconazol",
+    "symptoms": "Arritmias ventriculares",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser feito com cautela. Observar risco-benefício. Monitorar ocorrÊncia de arritmias."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Hidrocortisona",
+    "symptoms": "Risco de arritmias; Hipocalemia; Hipomagnesemia",
+    "severity": "high",
+    "recommendation": "Monitorar frequência cardíaca e níveis séricos de potássio e magnésio."
+  },
+  {
+    "med1": "Amiodarona",
+    "med2": "Ondansetrona",
+    "symptoms": "Risco de arritmias; Hipocalemia; Hipomagnesemia",
+    "severity": "high",
+    "recommendation": "Monitorar frequência cardíaca e níveis séricos de potássio e magnésio."
+  },
+  {
+    "med1": "Ampicilina",
+    "med2": "Alopurinol",
+    "symptoms": "ocorrência de hipersensibilidade cutânea à ampicilina",
+    "severity": "moderate",
+    "recommendation": "Monitorar o aumento da incidência de reações de hipersensibilidade."
+  },
+  {
+    "med1": "Ampicilina",
+    "med2": "Doxiciclina",
+    "symptoms": "efeitos terapêuticos da Ampicilina",
+    "severity": "high",
+    "recommendation": "Administrar os medicamentos com intervalo de pelo menos duas horas."
+  },
+  {
+    "med1": "Anfoterecina B",
+    "med2": "Amicacina",
+    "symptoms": "efeito nefrotóxico dos aminoglicosídeos",
+    "severity": "moderate",
+    "recommendation": "Monitorar função renal."
+  },
+  {
+    "med1": "Anfoterecina B",
+    "med2": "Gentamicina",
+    "symptoms": "efeito nefrotóxico dos aminoglicosídeos",
+    "severity": "moderate",
+    "recommendation": "Monitorar função renal."
+  },
+  {
+    "med1": "Anfoterecina B",
+    "med2": "Ciclosporina",
+    "symptoms": "efeito nefrotóxico da ciclosporina",
+    "severity": "moderate",
+    "recommendation": "Monitorar função renal."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Ritonavir",
+    "symptoms": "efeitos terapêuticos e tóxicos do anlodipino",
+    "severity": "moderate",
+    "recommendation": "Monitorar o aumento dos efeitos terapêuticos (hipotensão arterial) e tóxicos (fadiga; edema; alterações do ritmo cardíaco)."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Lopinavir",
+    "symptoms": "efeitos terapêuticos e tóxicos do anlodipino",
+    "severity": "moderate",
+    "recommendation": "Monitorar o aumento dos efeitos terapêuticos (hipotensão arterial) e tóxicos (fadiga; edema; alterações do ritmo cardíaco)."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Atazanavir",
+    "symptoms": "efeitos terapêuticos e tóxicos do anlodipino",
+    "severity": "moderate",
+    "recommendation": "Monitorar o aumento dos efeitos terapêuticos (hipotensão arterial) e tóxicos (fadiga; edema; alterações do ritmo cardíaco)."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Atenolol",
+    "symptoms": "Efeito hipotensor do anlodipino e ocorrência de bradicardia",
+    "severity": "moderate",
+    "recommendation": "Monitorar ocorrência de bradicardia, hipotensão arterial, ou sinais de insuficiência cardíaca."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Metoprolol",
+    "symptoms": "Efeito hipotensor do anlodipino e ocorrência de bradicardia",
+    "severity": "moderate",
+    "recommendation": "Monitorar ocorrência de bradicardia, hipotensão arterial, ou sinais de insuficiência cardíaca."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Propranolol",
+    "symptoms": "Efeito hipotensor do anlodipino e ocorrência de bradicardia",
+    "severity": "moderate",
+    "recommendation": "Monitorar ocorrência de bradicardia, hipotensão arterial, ou sinais de insuficiência cardíaca."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Carbamazepina",
+    "symptoms": "efeito terapêutico do anlodipino",
+    "severity": "moderate",
+    "recommendation": "Monitorar a pressão arterial."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Carbonato de Cálcio",
+    "symptoms": "efeito terapêutico do anlodipino",
+    "severity": "moderate",
+    "recommendation": "Monitorar a pressão arterial."
+  },
+  {
+    "med1": "Anlodipino",
+    "med2": "Ciclosporina",
+    "symptoms": "efeitos terapêuticos e tóxicos do anlodipino",
+    "severity": "moderate",
+    "recommendation": "Monitorar o aumento dos efeitos terapêuticos (hipotensão arterial) e tóxicos (fadiga; edema; alterações do ritmo cardíaco)."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "AAS",
+    "symptoms": "resposta anti-hipertensiva",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "AAS",
+    "symptoms": "resposta anti-hipertensiva",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Trimetropina",
+    "symptoms": "hipercalemia",
+    "severity": "moderate",
+    "recommendation": "Monitorar níveis séricos de potássio."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Trimetropina",
+    "symptoms": "hipercalemia",
+    "severity": "moderate",
+    "recommendation": "Monitorar níveis séricos de potássio."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Diclofenaco",
+    "symptoms": "resposta anti-hipertensiva; risco de disfunção renal",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial. Considerar terapia antiinflamatória alternativa (principalmente pacientes com ICC)."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Ibuprofeno",
+    "symptoms": "resposta anti-hipertensiva; risco de disfunção renal",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial. Considerar terapia antiinflamatória alternativa (principalmente pacientes com ICC)."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Naproxeno",
+    "symptoms": "resposta anti-hipertensiva; risco de disfunção renal",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial. Considerar terapia antiinflamatória alternativa (principalmente pacientes com ICC)."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Diclofenaco",
+    "symptoms": "resposta anti-hipertensiva; risco de disfunção renal",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial. Considerar terapia antiinflamatória alternativa (principalmente pacientes com ICC)."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Ibuprofeno",
+    "symptoms": "resposta anti-hipertensiva; risco de disfunção renal",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial. Considerar terapia antiinflamatória alternativa (principalmente pacientes com ICC)."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Naproxeno",
+    "symptoms": "resposta anti-hipertensiva; risco de disfunção renal",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial. Considerar terapia antiinflamatória alternativa (principalmente pacientes com ICC)."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Alopurinol",
+    "symptoms": "risco de reações alérgicas ao alopurinol",
+    "severity": "high",
+    "recommendation": "Observar evidências de hipersensibilidade ao alopurinol por no mínimo 5 semanas."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Alopurinol",
+    "symptoms": "risco de reações alérgicas ao alopurinol",
+    "severity": "high",
+    "recommendation": "Observar evidências de hipersensibilidade ao alopurinol por no mínimo 5 semanas."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Azatioprina",
+    "symptoms": "efeito neutropênicos da Azatioprina",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de efeitos tóxicos da Azatioprina (neutropenia)."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Azatioprina",
+    "symptoms": "efeito neutropênicos da Azatioprina",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de efeitos tóxicos da Azatioprina (neutropenia)."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Ciclosporina",
+    "symptoms": "efeito nefrotóxico da ciclosporina",
+    "severity": "high",
+    "recommendation": "Monitorar função renal. Manter hidratação adequada (Cautela quanto ao uso de diuréticos)"
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Ciclosporina",
+    "symptoms": "efeito nefrotóxico da ciclosporina",
+    "severity": "high",
+    "recommendation": "Monitorar função renal. Manter hidratação adequada (Cautela quanto ao uso de diuréticos)"
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Espironolactona",
+    "symptoms": "efeito hipercalêmico dos IECA (Captopril/Enalapril)",
+    "severity": "moderate",
+    "recommendation": "Monitorar níveis séricos de potássio (principalmente na ICC)."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Espironolactona",
+    "symptoms": "efeito hipercalêmico dos IECA (Captopril/Enalapril)",
+    "severity": "moderate",
+    "recommendation": "Monitorar níveis séricos de potássio (principalmente na ICC)."
+  },
+  {
+    "med1": "Captopril",
+    "med2": "Hidroclorotiazida",
+    "symptoms": "Hipotensão postural; efeito nefrotóxico dos IECA (Captopril/Enalapril)",
+    "severity": "moderate",
+    "recommendation": "Observar evidências de hipotensão postural no início do tratamento. Observar sinais e sintomas de disfunção renal."
+  },
+  {
+    "med1": "Enalapril",
+    "med2": "Hidroclorotiazida",
+    "symptoms": "Hipotensão postural; efeito nefrotóxico dos IECA (Captopril/Enalapril)",
+    "severity": "moderate",
+    "recommendation": "Observar evidências de hipotensão postural no início do tratamento. Observar sinais e sintomas de disfunção renal."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Diltiazem",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Verapamil",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Cetoconazol",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Miconazol",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Itraconazol",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Voriconazol",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Alopurinol",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Isoniazida",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Atazanavir",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Lopinavir",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Ritonavir",
+    "symptoms": "efeitos adversos/tóxicos da Carbamazepina",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos (ataxia, sonolência, fadiga, leucopenia, trombocitopenia, outros)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Amitriptilina",
+    "symptoms": "efeito terapêutico da Amitriptilina (efeito antidepressivo e propriedades sedativas)",
+    "severity": "moderate",
+    "recommendation": "Monitorar a diminuição dos efeitos terapêuticos (efeito antidepressivo e propriedades sedativas)."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Ciclosporina",
+    "symptoms": "efeito terapêutico da ciclosporina (imunossupressão)",
+    "severity": "moderate",
+    "recommendation": "Considerar ajuste de dose da ciclosporina."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Varfarina",
+    "symptoms": "risco de sangramento",
+    "severity": "moderate",
+    "recommendation": "Monitorar tempo de protrombina (TAP) e aumento das evidências de sangramento. Ajuste de dose da varfarina."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Doxiciclina",
+    "symptoms": "efeito terapêutico da doxiciclina",
+    "severity": "moderate",
+    "recommendation": "Monitorar diminuição dos efeitos terapêuticos. Considerar o aumento de dose da doxiciclina ou utilizar outro derivado de tetraciclina."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Haloperidol",
+    "symptoms": "efeito terapêutico do haloperidol",
+    "severity": "moderate",
+    "recommendation": "Monitorar diminuição dos efeitos terapêuticos. Considerar o aumento de dose do haloperidol ou utilizar outro antipsicótico alternativo."
+  },
+  {
+    "med1": "Carbamazepina",
+    "med2": "Paracetamol",
+    "symptoms": "efeito terapêutico do paracetamol e aumenta risco de dano hepático",
+    "severity": "moderate",
+    "recommendation": "Monitorar diminuição dos efeitos terapêuticos e hepatotoxicidade."
+  },
+  {
+    "med1": "Caspofungina",
+    "med2": "Ciclosporina",
+    "symptoms": "ocorrência de hepatotoxicidade",
+    "severity": "high",
+    "recommendation": "Evitar uso concomitante. Caso seja extremamente necessário, monitorar aumento de transaminases (ALT/AST)."
+  },
+  {
+    "med1": "Cefepime",
+    "med2": "Amicacina",
+    "symptoms": "risco de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "A menor dose eficaz de aminoglicosídeos e cefalosporinas deve ser utilizado quando são prescritos em combinação. Monitorar função renal (uréia e creatinina)."
+  },
+  {
+    "med1": "Cefepime",
+    "med2": "Gentamicina",
+    "symptoms": "risco de nefrotoxicidade",
+    "severity": "moderate",
+    "recommendation": "A menor dose eficaz de aminoglicosídeos e cefalosporinas deve ser utilizado quando são prescritos em combinação. Monitorar função renal (uréia e creatinina)."
+  },
+  {
+    "med1": "Ceftriaxona",
+    "med2": "Varfarina",
+    "symptoms": "risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar tempo de protrombina (TAP) e aumento das evidências de sangramento. Exceção: Cefepime"
+  },
+  {
+    "med1": "Cilostozol",
+    "med2": "AAS",
+    "symptoms": "do risco de sangramento",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de evidências de redução da função plaquetária."
+  },
+  {
+    "med1": "Cilostozol",
+    "med2": "Diclofenaco",
+    "symptoms": "do risco de sangramento",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de evidências de redução da função plaquetária."
+  },
+  {
+    "med1": "Cilostozol",
+    "med2": "Ibuprofeno",
+    "symptoms": "do risco de sangramento",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de evidências de redução da função plaquetária."
+  },
+  {
+    "med1": "Cilostozol",
+    "med2": "Naproxeno",
+    "symptoms": "do risco de sangramento",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de evidências de redução da função plaquetária."
+  },
+  {
+    "med1": "Ciprofloxacino",
+    "med2": "Prednisona",
+    "symptoms": "risco de tendinite e ruptura do tendão",
+    "severity": "high",
+    "recommendation": "Uso concomitante deve ser evitado. Monitorar paciente para sinais de dor, inchaço ou inflamação de um tendão."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Ácido valpróico",
+    "symptoms": "problemas de deambulação, fala e concentração",
+    "severity": "moderate",
+    "recommendation": "Monitorar efeitos tóxicos do ácido valpróico (distúrbios na deambulação, fala e concentração). Considerar escolha de macrolídeo não interagente (Azitromicina)."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Atazanavir",
+    "symptoms": "Desenvolvimento de arritmias cardíacas",
+    "severity": "high",
+    "recommendation": "Considerar ajuste de dose da claritromicina ou antibioticoterapia alternativa."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Lopinavir",
+    "symptoms": "Desenvolvimento de arritmias cardíacas",
+    "severity": "high",
+    "recommendation": "Considerar ajuste de dose da claritromicina ou antibioticoterapia alternativa."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Ritonavir",
+    "symptoms": "Desenvolvimento de arritmias cardíacas",
+    "severity": "high",
+    "recommendation": "Considerar ajuste de dose da claritromicina ou antibioticoterapia alternativa."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Carbamazepina",
+    "symptoms": "Ocorrência de tontura, sonolência, ataxia, diplopia",
+    "severity": "moderate",
+    "recommendation": "Considerar a escolha de um macrolídeo não interagente (Azitromicina) e/ou ajuste de dose da Carbamazepina."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Ciclosporina",
+    "symptoms": "efeitos terapêuticos e tóxicos da ciclosporina (imunossupressão)",
+    "severity": "moderate",
+    "recommendation": "Considerar modificação na terapia ou ajuste de dose."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Clopidogrel",
+    "symptoms": "Risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar a evidências de redução da função plaquetária (hemorragia)."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Sildenafil",
+    "symptoms": "dos efeitos tóxicos do sildenafil",
+    "severity": "moderate",
+    "recommendation": "Observar ocorrência de efeitos tóxicos como cefaléia, rubor, taquicardia e visão turva."
+  },
+  {
+    "med1": "Claritromicina",
+    "med2": "Varfarina",
+    "symptoms": "do RNI e potencialização do efeito (risco de hemorragia)",
+    "severity": "moderate",
+    "recommendation": "Monitorar TAP. Observar ocorrência de hemorragia, hematúria e equimoses."
+  },
+  {
+    "med1": "Azitromicina",
+    "med2": "Varfarina",
+    "symptoms": "do RNI e potencialização do efeito (risco de hemorragia)",
+    "severity": "moderate",
+    "recommendation": "Monitorar TAP. Observar ocorrência de hemorragia, hematúria e equimoses."
+  },
+  {
+    "med1": "Clindamicina",
+    "med2": "Eritromicina",
+    "symptoms": "efeito terapêutico da eritromicina",
+    "severity": "high",
+    "recommendation": "O uso concomitante deve ser evitado."
+  },
+  {
+    "med1": "Clonidina",
+    "med2": "Amitriptilina",
+    "symptoms": "efeito anti-hipertensivo da clonidina",
+    "severity": "moderate",
+    "recommendation": "Observar sinais e sintomas de crise hipertensiva. Monitorar pressão arterial. Retirar Clonidina gradualmente para hipertensão arterial de rebote."
+  },
+  {
+    "med1": "Clonidina",
+    "med2": "Atenolol",
+    "symptoms": "efeito hipertensivo de rebote devido retirada abrupta de Clonidina",
+    "severity": "high",
+    "recommendation": "Monitorar aumentos agudos de pressão arterial. Suspender betabloqueador vários dias antes da clonidina ser gradualmente retirada. Preferir utilização de betabloqueador cardiosseletivo."
+  },
+  {
+    "med1": "Clopidogrel",
+    "med2": "AAS",
+    "symptoms": "Risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar a evidências de redução da função plaquetária (hemorragia)."
+  },
+  {
+    "med1": "Clopidogrel",
+    "med2": "Diclofenaco",
+    "symptoms": "Risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar a evidências de redução da função plaquetária (hemorragia)."
+  },
+  {
+    "med1": "Clopidogrel",
+    "med2": "Ibuprofeno",
+    "symptoms": "Risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar a evidências de redução da função plaquetária (hemorragia)."
+  },
+  {
+    "med1": "Clopidogrel",
+    "med2": "Naproxeno",
+    "symptoms": "Risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar a evidências de redução da função plaquetária (hemorragia)."
+  },
+  {
+    "med1": "Cloreto de potássio",
+    "med2": "Captopril",
+    "symptoms": "risco de hipercalcemia",
+    "severity": "moderate",
+    "recommendation": "Monitorar níveis plasmáticos de cálcio e sinais e sintomas de hipercalcemia (arritmias; alterações dos níveis de conciência; constipação)."
+  },
+  {
+    "med1": "Cloreto de potássio",
+    "med2": "Enalapril",
+    "symptoms": "risco de hipercalcemia",
+    "severity": "moderate",
+    "recommendation": "Monitorar níveis plasmáticos de cálcio e sinais e sintomas de hipercalcemia (arritmias; alterações dos níveis de conciência; constipação)."
+  },
+  {
+    "med1": "Cloreto de potássio",
+    "med2": "Espironolactona",
+    "symptoms": "níveis plasmáticos de potássio",
+    "severity": "moderate",
+    "recommendation": "Evitar o uso concomitante (exceto hipocalemia importante). Monitorar sinais de hipercalemia (fraqueza muscular; fadiga; arritmias; bradicardia). Pacientes com comprometicmento renal apresenta maiores riscos de efeitos adversos."
+  },
+  {
+    "med1": "Cloreto de potássio",
+    "med2": "Losartana",
+    "symptoms": "níveis plasmáticos de potássio",
+    "severity": "moderate",
+    "recommendation": "Monitorar sinais e sintomas de hipercalemia."
+  },
+  {
+    "med1": "Digoxina",
+    "med2": "Cetoconazol",
+    "symptoms": "Bradicardia; Distúrbios do SNC; náusea e vômito",
+    "severity": "moderate",
+    "recommendation": "Monitorar ocorrência de efeitos tóxicos da digoxina (bradicardia, distúrbios do SNC, etc)"
+  },
+  {
+    "med1": "Digoxina",
+    "med2": "Itraconazol",
+    "symptoms": "Bradicardia; Distúrbios do SNC; náusea e vômito",
+    "severity": "moderate",
+    "recommendation": "Monitorar ocorrência de efeitos tóxicos da digoxina (bradicardia, distúrbios do SNC, etc)"
+  },
+  {
+    "med1": "Digoxina",
+    "med2": "Claritromicina",
+    "symptoms": "Bradicardia; Distúrbios do SNC; náusea e vômito",
+    "severity": "moderate",
+    "recommendation": "Monitorar ocorrência de efeitos tóxicos da digoxina (bradicardia, distúrbios do SNC, etc)"
+  },
+  {
+    "med1": "Digoxina",
+    "med2": "Azitromicina",
+    "symptoms": "Bradicardia; Distúrbios do SNC; náusea e vômito",
+    "severity": "moderate",
+    "recommendation": "Monitorar ocorrência de efeitos tóxicos da digoxina (bradicardia, distúrbios do SNC, etc)"
+  },
+  {
+    "med1": "Digoxina",
+    "med2": "Atenolol",
+    "symptoms": "Bradicardia excessiva; Arritimias",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de bradicardia."
+  },
+  {
+    "med1": "Digoxina",
+    "med2": "Metoprolol",
+    "symptoms": "Bradicardia excessiva; Arritimias",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de bradicardia."
+  },
+  {
+    "med1": "Digoxina",
+    "med2": "Propranolol",
+    "symptoms": "Bradicardia excessiva; Arritimias",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento de bradicardia."
+  },
+  {
+    "med1": "Digoxina",
+    "med2": "Ciclosporina",
+    "symptoms": "Bradicardia; Distúrbios do SNC; náusea e vômito",
+    "severity": "moderate",
+    "recommendation": "Monitorar ocorrência de efeitos tóxicos da digoxina (bradicardia, distúrbios do SNC, etc)"
+  },
+  {
+    "med1": "Diltiazem",
+    "med2": "AAS",
+    "symptoms": "risco de hemorragias anormais e equimoses",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos antiplaquetários do AAS (hemorragias e equimose)"
+  },
+  {
+    "med1": "Verapamil",
+    "med2": "AAS",
+    "symptoms": "risco de hemorragias anormais e equimoses",
+    "severity": "moderate",
+    "recommendation": "Monitorar aumento dos efeitos antiplaquetários do AAS (hemorragias e equimose)"
+  },
+  {
+    "med1": "Diltiazem",
+    "med2": "Atazanavir",
+    "symptoms": "efeitos terapêuticos do Diltiazem/ Verapamil",
+    "severity": "high",
+    "recommendation": "Evitar uso concomitante. Monitorar pressão arterial."
+  },
+  {
+    "med1": "Verapamil",
+    "med2": "Atazanavir",
+    "symptoms": "efeitos terapêuticos do Diltiazem/ Verapamil",
+    "severity": "high",
+    "recommendation": "Evitar uso concomitante. Monitorar pressão arterial."
+  },
+  {
+    "med1": "Diltiazem",
+    "med2": "Atenolol",
+    "symptoms": "Hipotensão, bradcardia e sinais de insuficiência cardíaca",
+    "severity": "moderate",
+    "recommendation": "Monitorar evidências de bradcardia, hipotensão e sinais de insuficiêcia cardíaca."
+  },
+  {
+    "med1": "Verapamil",
+    "med2": "Atenolol",
+    "symptoms": "Hipotensão, bradcardia e sinais de insuficiência cardíaca",
+    "severity": "moderate",
+    "recommendation": "Monitorar evidências de bradcardia, hipotensão e sinais de insuficiêcia cardíaca."
+  },
+  {
+    "med1": "Diltiazem",
+    "med2": "Diazepam",
+    "symptoms": "das concentrações e toxicidade dos benzodiazepínicos (sedação excessiva e efeitos hipnóticos prolongados)",
+    "severity": "moderate",
+    "recommendation": "Evitar uso concomitante. Se uso concomitante, monitorar ocorrência de efeitos tóxicos dos benzodiazepínicos e considerar redução da dose."
+  },
+  {
+    "med1": "Verapamil",
+    "med2": "Diazepam",
+    "symptoms": "das concentrações e toxicidade dos benzodiazepínicos (sedação excessiva e efeitos hipnóticos prolongados)",
+    "severity": "moderate",
+    "recommendation": "Evitar uso concomitante. Se uso concomitante, monitorar ocorrência de efeitos tóxicos dos benzodiazepínicos e considerar redução da dose."
+  },
+  {
+    "med1": "Diltiazem",
+    "med2": "Ciclosporina",
+    "symptoms": "efeitos terapêuticos e tóxicos da ciclosporina (imunossupressão)",
+    "severity": "moderate",
+    "recommendation": "Considerar modificação na terapia ou ajuste de dose."
+  },
+  {
+    "med1": "Verapamil",
+    "med2": "Ciclosporina",
+    "symptoms": "efeitos terapêuticos e tóxicos da ciclosporina (imunossupressão)",
+    "severity": "moderate",
+    "recommendation": "Considerar modificação na terapia ou ajuste de dose."
+  },
+  {
+    "med1": "Diltiazem",
+    "med2": "Digoxina",
+    "symptoms": "efeito de bloqueio AV da Digoxina",
+    "severity": "high",
+    "recommendation": "Monitorar efeitos adversos/tóxicos da Digoxina (arritmias)."
+  },
+  {
+    "med1": "Verapamil",
+    "med2": "Digoxina",
+    "symptoms": "efeito de bloqueio AV da Digoxina",
+    "severity": "high",
+    "recommendation": "Monitorar efeitos adversos/tóxicos da Digoxina (arritmias)."
+  },
+  {
+    "med1": "Dipirona sódica",
+    "med2": "Ciclosporina",
+    "symptoms": "níveis plasmáticos de ciclosporina",
+    "severity": "moderate",
+    "recommendation": "Monitorar níveis plamáticos de Ciclosporina"
+  },
+  {
+    "med1": "Dipirona sódica",
+    "med2": "Furosemida",
+    "symptoms": "efeito diurético e anti-hipertensivo",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial e diurese."
+  },
+  {
+    "med1": "Dipirona sódica",
+    "med2": "Hidroclorotiazida",
+    "symptoms": "efeito diurético e anti-hipertensivo",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial e diurese."
+  },
+  {
+    "med1": "Dipirona sódica",
+    "med2": "Propranolol",
+    "symptoms": "efeito anti-hipertensiva",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial."
+  },
+  {
+    "med1": "Dipirona sódica",
+    "med2": "Varfarina",
+    "symptoms": "risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar tempo de protrombina (TAP); Monitorar aumento das evidências de sangramento."
+  },
+  {
+    "med1": "Dipirona sódica",
+    "med2": "Losartana",
+    "symptoms": "Hipotensão e aumento do risco de problemas renais",
+    "severity": "moderate",
+    "recommendation": "Monitorar pressão arterial e função renal (uréia e creatinina)."
+  },
+  {
+    "med1": "Fenitoína",
+    "med2": "Ácido valpróico",
+    "symptoms": "Hepatotoxicidade",
+    "severity": "moderate",
+    "recommendation": "Monitorar diminuição dos efeitos terapêuticos da Fenitoína."
+  },
+  {
+    "med1": "Fenitoína",
+    "med2": "Cetoconazol",
+    "symptoms": "Fracasso da terapia antifúngica",
+    "severity": "high",
+    "recommendation": "Evitar uso concomitante. Utilizar terapia antifúngica alternativa (exceção: Miconazol)."
+  },
+  {
+    "med1": "Fenitoína",
+    "med2": "Itraconazol",
+    "symptoms": "Fracasso da terapia antifúngica",
+    "severity": "high",
+    "recommendation": "Evitar uso concomitante. Utilizar terapia antifúngica alternativa (exceção: Miconazol)."
+  },
+  {
+    "med1": "Fenitoína",
+    "med2": "Ciprofloxacino",
+    "symptoms": "Risco de depressão do SNC e depressão respiratória.",
+    "severity": "high",
+    "recommendation": "Monitorar o paciente para aparecimento dos sinais clínicos."
+  },
+  {
+    "med1": "Varfarina",
+    "med2": "AAS",
+    "symptoms": "risco hemorrágico",
+    "severity": "high",
+    "recommendation": "Monitorar evidências de sangramento."
+  },
+  {
+    "med1": "Varfarina",
+    "med2": "Amiodarona",
+    "symptoms": "efeitos hipoprotrombinêmicos (risco de sangramento)",
+    "severity": "high",
+    "recommendation": "Monitorar o aumento dos efeitos terapêuticos da varfarina (anticoagulação). Monitorar tempo de protrombina (TAP)."
+  },
+  {
+    "med1": "Varfarina",
+    "med2": "Alopurinol",
+    "symptoms": "efeitos hipoprotrombinêmicos (risco de sangramento)",
+    "severity": "high",
+    "recommendation": "Monitorar o aumento dos efeitos terapêuticos da varfarina (anticoagulação). Monitorar tempo de protrombina (TAP)."
+  },
+  {
+    "med1": "Varfarina",
+    "med2": "Diclofenaco",
+    "symptoms": "risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar tempo de protrombina (TAP); Monitorar aumento das evidências de sangramento."
+  },
+  {
+    "med1": "Varfarina",
+    "med2": "Ibuprofeno",
+    "symptoms": "risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar tempo de protrombina (TAP); Monitorar aumento das evidências de sangramento."
+  },
+  {
+    "med1": "Varfarina",
+    "med2": "Naproxeno",
+    "symptoms": "risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar tempo de protrombina (TAP); Monitorar aumento das evidências de sangramento."
+  },
+  {
+    "med1": "Varfarina",
+    "med2": "Fluconazol",
+    "symptoms": "risco hemorrágico",
+    "severity": "moderate",
+    "recommendation": "Monitorar tempo de protrombina (TAP); Monitorar aumento das evidências de sangramento."
+  },
+  {
+    "med1": "Espironolactona",
+    "med2": "Losartana",
+    "symptoms": "Hipercalêmia",
+    "severity": "moderate",
+    "recommendation": "Monitorar níveis séricos de potássio."
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "A user of the application",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Unique identifier from Firebase Auth" },
+        "email": { "type": "string", "format": "email" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string", "format": "uri" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "isPremium": { "type": "boolean", "description": "Whether the user upgraded to Premium" }
+      },
+      "required": ["uid", "email", "createdAt"]
+    },
+    "Medication": {
+      "title": "Medication",
+      "description": "A medication entry for a user",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string", "description": "Owner's UID" },
+        "name": { "type": "string", "description": "Name of the medication" },
+        "dosage": { "type": "string", "description": "Dosage (e.g., 500mg)" },
+        "frequency": { "type": "string", "description": "How often to take" },
+        "times": { "type": "array", "items": { "type": "string" }, "description": "Times of day (HH:mm)" },
+        "lastTaken": { "type": "string", "format": "date-time", "description": "Last time the medication was taken" },
+        "startDate": { "type": "string", "format": "date" },
+        "endDate": { "type": "string", "format": "date" },
+        "instructions": { "type": "string" },
+        "active": { "type": "boolean" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "type": { "type": "string" },
+        "route": { "type": "string" },
+        "stock": { "type": "number" },
+        "initialStock": { "type": "number" },
+        "refillThreshold": { "type": "number" },
+        "color": { "type": "string" },
+        "shape": { "type": "string" },
+        "time": { "type": "string" },
+        "indication": { "type": "string" },
+        "howToTake": { "type": "string" },
+        "purchaseDate": { "type": "string", "format": "date" },
+        "expiryDate": { "type": "string", "format": "date" },
+        "purchaseLocation": { "type": "string" },
+        "durationDays": { "type": "number" },
+        "doseHistory": { "type": "object" }
+      },
+      "required": ["name", "dosage", "frequency", "userId", "active", "createdAt"]
+    },
+    "HealthLog": {
+      "title": "HealthLog",
+      "description": "A daily health and wellness log entry",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string", "description": "Owner's UID" },
+        "mood": { "type": "string", "enum": ["great", "good", "okay", "bad", "terrible"] },
+        "symptoms": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "mood", "symptoms", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile information"
+    },
+    "/medications/{medicationId}": {
+      "schema": "Medication",
+      "description": "User medication entries"
+    },
+    "/healthLogs/{logId}": {
+      "schema": "HealthLog",
+      "description": "User health and wellness logs"
+    }
+  }
+}

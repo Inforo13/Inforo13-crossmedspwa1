@@ -1,0 +1,166 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: users
+    // Document ID: {userId} (matches Firebase Auth UID)
+    // Fields:
+    //   - uid: string (required, immutable)
+    //   - email: string (required, email format)
+    //   - displayName: string (optional)
+    //   - photoURL: string (optional, url format)
+    //   - createdAt: string (required, iso-date)
+    //
+    // Collection: medications
+    // Document ID: auto-generated
+    // Fields:
+    //   - id: string (required)
+    //   - userId: string (required, immutable, matches owner uid)
+    //   - name: string (required, 1-100 chars)
+    //   - dosage: string (required, 1-50 chars)
+    //   - frequency: string (required)
+    //   - times: list (optional, strings in HH:mm format)
+    //   - lastTaken: string (optional, iso-date)
+    //   - startDate: string (required, iso-date)
+    //   - endDate: string (optional, iso-date)
+    //   - instructions: string (optional, < 500 chars)
+    //   - active: bool (required)
+    //   - createdAt: string (required, iso-date)
+    //
+    // Collection: healthLogs
+    // Document ID: auto-generated
+    // Fields:
+    //   - id: string (required)
+    //   - userId: string (required, immutable, matches owner uid)
+    //   - mood: string (required, enum: great, good, okay, bad, terrible)
+    //   - symptoms: list (required, strings)
+    //   - notes: string (optional, < 1000 chars)
+    //   - createdAt: string (required, iso-date)
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isDocOwner() {
+      return isAuthenticated() && request.auth.uid == resource.data.userId;
+    }
+
+    function uidUnchanged() {
+      return !('userId' in request.resource.data) || request.resource.data.userId == request.auth.uid;
+    }
+
+    function isValidEmail(email) {
+      return email is string && (email == "" || email.matches("^[^@]+@[^@]+\\.[^@]+$"));
+    }
+
+    function isValidDateString(dateStr) {
+      return dateStr is string && dateStr.size() >= 10;
+    }
+
+    function isValidTime(timeStr) {
+      return timeStr is string && timeStr.matches("^([01]\\d|2[0-3]):([0-5]\\d)$");
+    }
+
+    // ===============================================================
+    // Domain Validators
+    // ===============================================================
+
+    function isValidUser(data) {
+      return ('uid' in data) && data.uid == request.auth.uid &&
+             ('email' in data) && isValidEmail(data.email) &&
+             ('createdAt' in data) && isValidDateString(data.createdAt) &&
+             (!('displayName' in data) || data.displayName is string) &&
+             (!('photoURL' in data) || data.photoURL is string) &&
+             (!('isPremium' in data) || data.isPremium is bool);
+    }
+
+    function isValidMedication(data) {
+      return ('name' in data) && data.name is string && data.name.size() > 0 && data.name.size() <= 100 &&
+             ('dosage' in data) && data.dosage is string && data.dosage.size() > 0 && data.dosage.size() <= 50 &&
+             ('frequency' in data) && data.frequency is string &&
+             ('userId' in data) && data.userId == request.auth.uid &&
+             ('active' in data) && data.active is bool &&
+             ('createdAt' in data) && isValidDateString(data.createdAt) &&
+             ('startDate' in data) && isValidDateString(data.startDate) &&
+             (!('times' in data) || (data.times is list && data.times.size() <= 24)) &&
+             (!('endDate' in data) || isValidDateString(data.endDate)) &&
+             (!('updatedAt' in data) || isValidDateString(data.updatedAt)) &&
+             (!('instructions' in data) || (data.instructions is string && data.instructions.size() <= 500)) &&
+             (!('lastTaken' in data) || isValidDateString(data.lastTaken)) &&
+             (!('type' in data) || data.type is string) &&
+             (!('route' in data) || data.route is string) &&
+             (!('stock' in data) || data.stock is number) &&
+             (!('initialStock' in data) || data.initialStock is number) &&
+             (!('refillThreshold' in data) || data.refillThreshold is number) &&
+             (!('color' in data) || data.color is string) &&
+             (!('shape' in data) || data.shape is string) &&
+             (!('time' in data) || data.time is string) &&
+             (!('indication' in data) || data.indication is string) &&
+             (!('howToTake' in data) || data.howToTake is string) &&
+             (!('purchaseDate' in data) || isValidDateString(data.purchaseDate)) &&
+             (!('expiryDate' in data) || isValidDateString(data.expiryDate)) &&
+             (!('purchaseLocation' in data) || data.purchaseLocation is string) &&
+             (!('durationDays' in data) || data.durationDays is number) &&
+             (!('doseHistory' in data) || data.doseHistory is map) &&
+             (!('isCompounded' in data) || data.isCompounded is bool) &&
+             (!('components' in data) || data.components is list);
+    }
+
+    function isValidHealthLog(data) {
+      return ('mood' in data) && data.mood in ['great', 'good', 'okay', 'bad', 'terrible'] &&
+             ('symptoms' in data) && data.symptoms is list &&
+             ('userId' in data) && data.userId == request.auth.uid &&
+             ('createdAt' in data) && isValidDateString(data.createdAt) &&
+             (!('notes' in data) || (data.notes is string && data.notes.size() <= 1000));
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /users/{userId} {
+      allow read: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidUser(request.resource.data);
+      allow update: if isOwner(userId) && isValidUser(request.resource.data) &&
+                      request.resource.data.uid == resource.data.uid &&
+                      (!('createdAt' in resource.data) || request.resource.data.createdAt == resource.data.createdAt);
+    }
+
+    match /medications/{medicationId} {
+      allow read: if isAuthenticated() && (resource == null || resource.data.userId == request.auth.uid);
+      allow create: if isAuthenticated() && isValidMedication(request.resource.data);
+      allow update: if isAuthenticated() && isDocOwner() && isValidMedication(request.resource.data) &&
+                      request.resource.data.userId == resource.data.userId &&
+                      request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if isAuthenticated() && isDocOwner();
+    }
+
+    match /healthLogs/{logId} {
+      allow read: if isAuthenticated() && (resource == null || resource.data.userId == request.auth.uid);
+      allow create: if isAuthenticated() && isValidHealthLog(request.resource.data);
+      allow update: if isAuthenticated() && isDocOwner() && isValidHealthLog(request.resource.data) &&
+                      request.resource.data.userId == resource.data.userId &&
+                      request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if isAuthenticated() && isDocOwner();
+    }
+
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

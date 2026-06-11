@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrossMeds-PWA1</title>
+    <meta name="description" content="A comprehensive medication management and health tracking Progressive Web App." />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#059669" />
+    
+    <!-- iOS / Safari App Optimization -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="CrossMeds-PWA1" />
+    <link rel="apple-touch-icon" href="/180X180.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/192X192.png" />
+    <link rel="icon" type="image/png" href="/192X192.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/192X192.png" />
+  </head>
+  <body>
+    <script>
+      // Global diagnostic capture for runtime errors to prevent unhelpful silent white pages
+      var ignoredErrors = [
+        'WebSocket',
+        'websocket',
+        'HMR',
+        'ResizeObserver loop',
+        'ResizeObserver loop limit exceeded',
+        'Script error'
+      ];
+      function shouldIgnore(msg) {
+        if (!msg) return false;
+        var s = String(msg);
+        for (var i = 0; i < ignoredErrors.length; i++) {
+          if (s.indexOf(ignoredErrors[i]) !== -1) {
+            return true;
+          }
+        }
+        return false;
+      }
+
+      window.addEventListener('error', function(e) {
+        var msg = e.message || (e.error ? e.error.message : '');
+        if (shouldIgnore(msg)) return;
+
+        var errDiv = document.createElement('div');
+        errDiv.id = 'runtime-error-banner';
+        errDiv.style.position = 'fixed';
+        errDiv.style.top = '0';
+        errDiv.style.left = '0';
+        errDiv.style.width = '100vw';
+        errDiv.style.maxHeight = '50vh';
+        errDiv.style.overflowY = 'auto';
+        errDiv.style.background = '#be123c';
+        errDiv.style.color = '#ffffff';
+        errDiv.style.padding = '16px';
+        errDiv.style.zIndex = '999999';
+        errDiv.style.fontFamily = 'monospace';
+        errDiv.style.fontSize = '12px';
+        errDiv.style.whiteSpace = 'pre-wrap';
+        errDiv.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.3)';
+        errDiv.innerText = '⚠️ Erro de Execução (Runtime Error):\n' + e.message + '\nArquivo: ' + e.filename + ':' + e.lineno + ':' + e.colno + '\n\nStack Trace:\n' + (e.error ? e.error.stack : 'N/A');
+        document.body.appendChild(errDiv);
+      });
+
+      window.addEventListener('unhandledrejection', function(e) {
+        var msg = e.reason ? (e.reason.message || String(e.reason)) : '';
+        if (shouldIgnore(msg)) return;
+
+        var errDiv = document.createElement('div');
+        errDiv.id = 'rejection-error-banner';
+        errDiv.style.position = 'fixed';
+        errDiv.style.bottom = '0';
+        errDiv.style.left = '0';
+        errDiv.style.width = '100vw';
+        errDiv.style.maxHeight = '50vh';
+        errDiv.style.overflowY = 'auto';
+        errDiv.style.background = '#4c0519';
+        errDiv.style.color = '#ffffff';
+        errDiv.style.padding = '16px';
+        errDiv.style.zIndex = '999999';
+        errDiv.style.fontFamily = 'monospace';
+        errDiv.style.fontSize = '12px';
+        errDiv.style.whiteSpace = 'pre-wrap';
+        errDiv.style.boxShadow = '0 -10px 15px -3px rgba(0, 0, 0, 0.3)';
+        errDiv.innerText = '⚠️ Rejeição de Promessa Não Tratada (Unhandled Rejection):\nMotivo: ' + (e.reason ? (e.reason.message || e.reason) : 'Desconhecido') + '\n\nStack Trace:\n' + (e.reason && e.reason.stack ? e.reason.stack : 'N/A');
+        document.body.appendChild(errDiv);
+      });
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('SW registered: ', registration);
+          }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+

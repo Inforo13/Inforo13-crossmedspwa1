@@ -1,0 +1,449 @@
+{
+  "idade_minima": 65,
+  "evitar_independente_condicao": [
+    {
+      "substancia": "Diazepam",
+      "classe": "Benzodiazepínico",
+      "recomendacao": "Evitar",
+      "motivo": "Meia-vida longa, risco elevado de sedação prolongada, quedas e comprometimento cognitivo",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["quedas", "sedacao", "delirium", "declinio_cognitivo"],
+      "alternativa_terapeutica": "Preferir lorazepam em menor dose e por curto período, ou terapia não farmacológica"
+    },
+    {
+      "substancia": "Clonazepam",
+      "classe": "Benzodiazepínico",
+      "recomendacao": "Evitar",
+      "motivo": "Risco aumentado de sedação, quedas e dependência",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["quedas", "sedacao", "delirium"],
+      "alternativa_terapeutica": "Avaliar melatonina ou abordagem comportamental"
+    },
+    {
+      "substancia": "Alprazolam",
+      "classe": "Benzodiazepínico",
+      "recomendacao": "Evitar",
+      "motivo": "Alto risco de dependência e comprometimento cognitivo",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["quedas", "sedacao", "declinio_cognitivo"],
+      "alternativa_terapeutica": "Preferir ISRS para ansiedade crônica"
+    },
+    {
+      "substancia": "Amitriptilina",
+      "classe": "Antidepressivo tricíclico",
+      "recomendacao": "Evitar",
+      "motivo": "Forte efeito anticolinérgico e risco de hipotensão ortostática",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["anticolinergico", "quedas", "delirium", "hipotensao"],
+      "alternativa_terapeutica": "Preferir sertralina ou escitalopram"
+    },
+    {
+      "substancia": "Imipramina",
+      "classe": "Antidepressivo tricíclico",
+      "recomendacao": "Evitar",
+      "motivo": "Efeito anticolinérgico intenso e risco de arritmias",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["anticolinergico", "arritmia", "quedas"],
+      "alternativa_terapeutica": "Preferir ISRS"
+    },
+    {
+      "substancia": "Doxepina",
+      "classe": "Antidepressivo tricíclico",
+      "recomendacao": "Evitar",
+      "motivo": "Alto efeito anticolinérgico em doses elevadas (>6 mg/dia)",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["anticolinergico", "sedacao", "quedas"],
+      "alternativa_terapeutica": "Preferir doses baixas ou outro antidepressivo"
+    },
+    {
+      "substancia": "Clorpromazina",
+      "classe": "Antipsicótico típico",
+      "recomendacao": "Evitar",
+      "motivo": "Aumento de risco de AVC e mortalidade em demência",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["mortalidade", "avc", "delirium"],
+      "alternativa_terapeutica": "Usar apenas se psicose grave, menor dose possível"
+    },
+    {
+      "substancia": "Haloperidol",
+      "classe": "Antipsicótico típico",
+      "recomendacao": "Evitar uso crônico",
+      "motivo": "Risco cardiovascular e mortalidade aumentada",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["arritmia", "mortalidade", "quedas"],
+      "alternativa_terapeutica": "Avaliar quetiapina em casos selecionados"
+    },
+    {
+      "substancia": "Glibenclamida",
+      "classe": "Sulfonilureia",
+      "recomendacao": "Evitar",
+      "motivo": "Risco elevado de hipoglicemia prolongada",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["hipoglicemia", "quedas", "delirium"],
+      "alternativa_terapeutica": "Preferir gliclazida ou metformina"
+    },
+    {
+      "substancia": "Meperidina",
+      "classe": "Opioide",
+      "recomendacao": "Evitar",
+      "motivo": "Neurotoxicidade e risco de convulsões",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["convulsao", "delirium", "sedacao"],
+      "alternativa_terapeutica": "Preferir morfina ou oxicodona em dose ajustada"
+    }
+  ],
+  "evitar_em_doencas_especificas": [
+    {
+      "substancia": "Antipsicóticos (todos)",
+      "classe": "Antipsicótico típico e atípico",
+      "condicao_associada": "Demência",
+      "recomendacao": "Evitar, exceto em situações graves",
+      "motivo": "Aumento do risco de AVC e mortalidade",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["avc", "mortalidade", "delirium"],
+      "alternativa_terapeutica": "Intervenção não farmacológica; se necessário, menor dose pelo menor tempo possível"
+    },
+    {
+      "substancia": "Benzodiazepínicos",
+      "classe": "Ansiolítico / Sedativo",
+      "condicao_associada": "Delirium",
+      "recomendacao": "Evitar",
+      "motivo": "Pode precipitar ou piorar delirium",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["delirium", "quedas", "sedacao"],
+      "alternativa_terapeutica": "Tratamento da causa base; evitar sedativos"
+    },
+    {
+      "substancia": "AINEs não seletivos",
+      "classe": "Anti-inflamatório não esteroidal",
+      "condicao_associada": "Úlcera péptica ou sangramento GI",
+      "recomendacao": "Evitar",
+      "motivo": "Risco aumentado de sangramento gastrointestinal",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["sangramento", "anemia", "internacao"],
+      "alternativa_terapeutica": "Paracetamol ou uso com proteção gástrica se indispensável"
+    },
+    {
+      "substancia": "Pioglitazona",
+      "classe": "Tiazolidinediona",
+      "condicao_associada": "Insuficiência cardíaca",
+      "recomendacao": "Evitar",
+      "motivo": "Retenção hídrica e piora da insuficiência cardíaca",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["edema", "descompensacao_cardiaca"],
+      "alternativa_terapeutica": "Preferir metformina ou iSGLT2 se indicado"
+    },
+    {
+      "substancia": "Diltiazem e Verapamil",
+      "classe": "Bloqueador de canal de cálcio não diidropiridínico",
+      "condicao_associada": "Insuficiência cardíaca com fração de ejeção reduzida",
+      "recomendacao": "Evitar",
+      "motivo": "Pode piorar função ventricular",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["descompensacao_cardiaca", "bradicardia"],
+      "alternativa_terapeutica": "Preferir betabloqueador específico para IC"
+    },
+    {
+      "substancia": "Anticolinérgicos (ex: oxibutinina)",
+      "classe": "Antiespasmódico urinário",
+      "condicao_associada": "Demência ou comprometimento cognitivo",
+      "recomendacao": "Evitar",
+      "motivo": "Piora cognitiva significativa",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["anticolinergico", "delirium", "declinio_cognitivo"],
+      "alternativa_terapeutica": "Treino vesical ou mirabegrona"
+    },
+    {
+      "substancia": "Metoclopramida",
+      "classe": "Pró-cinético",
+      "condicao_associada": "Parkinson",
+      "recomendacao": "Evitar",
+      "motivo": "Pode piorar sintomas extrapiramidais",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["rigidez", "discinesia"],
+      "alternativa_terapeutica": "Domperidona com cautela"
+    },
+    {
+      "substancia": "Opioides",
+      "classe": "Analgésico opioide",
+      "condicao_associada": "Histórico de quedas ou fraturas",
+      "recomendacao": "Evitar uso crônico",
+      "motivo": "Aumento significativo do risco de quedas",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["quedas", "sedacao", "fratura"],
+      "alternativa_terapeutica": "Analgesia multimodal não opioide"
+    },
+    {
+      "substancia": "Alfa-bloqueadores (ex: doxazosina)",
+      "classe": "Anti-hipertensivo",
+      "condicao_associada": "Síncope",
+      "recomendacao": "Evitar como anti-hipertensivo de primeira linha",
+      "motivo": "Hipotensão ortostática significativa",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["hipotensao", "quedas", "sincope"],
+      "alternativa_terapeutica": "Preferir IECA ou BRA"
+    }
+  ],
+  "usar_com_cautela": [
+    {
+      "substancia": "Aspirina",
+      "classe": "Antiagregante plaquetário",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Risco de sangramento aumenta com a idade (prevenção primária)",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Alto",
+      "riscos": ["sangramento", "anemia"],
+      "alternativa_terapeutica": "Avaliar risco cardiovascular individual antes de prescrever"
+    },
+    {
+      "substancia": "Dabigatrana",
+      "classe": "Anticoagulante oral",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Maior risco de sangramento gastrointestinal em idosos",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["sangramento"],
+      "alternativa_terapeutica": "Considerar apixabana em pacientes de maior risco"
+    },
+    {
+      "substancia": "Varfarina",
+      "classe": "Anticoagulante",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Alta variabilidade e risco de sangramento",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Alto",
+      "riscos": ["sangramento", "interacoes"],
+      "alternativa_terapeutica": "Avaliar DOAC se indicado"
+    },
+    {
+      "substancia": "Tramadol",
+      "classe": "Opioide",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Risco de hiponatremia e SIADH",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["quedas", "confusao", "hiponatremia"],
+      "alternativa_terapeutica": "Preferir analgésicos não opioides quando possível"
+    },
+    {
+      "substancia": "ISRS",
+      "classe": "Antidepressivo",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Pode causar hiponatremia e aumento do risco de quedas (ex: sertralina, fluoxetina)",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["quedas", "hiponatremia"],
+      "alternativa_terapeutica": "Monitorar sódio sérico regularmente"
+    },
+    {
+      "substancia": "Carbamazepina",
+      "classe": "Anticonvulsivante",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Risco de hiponatremia",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["hiponatremia", "quedas"],
+      "alternativa_terapeutica": "Monitorar eletrólitos"
+    },
+    {
+      "substancia": "Diuréticos",
+      "classe": "Diurético",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Risco de distúrbios eletrolíticos",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Alto",
+      "riscos": ["hiponatremia", "hipocalemia", "quedas"],
+      "alternativa_terapeutica": "Monitoramento laboratorial periódico"
+    },
+    {
+      "substancia": "Digoxina",
+      "classe": "Glicosídeo cardíaco",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Risco elevado de toxicidade",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["arritmia", "toxicidade"],
+      "alternativa_terapeutica": "Evitar doses > 0,125 mg/dia"
+    },
+    {
+      "substancia": "Antipsicóticos atípicos",
+      "classe": "Antipsicótico",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Risco de mortalidade em idosos com demência",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["avc", "mortalidade", "quedas"],
+      "alternativa_terapeutica": "Intervenções não farmacológicas prioritárias"
+    }
+  ],
+  "interacoes_relevantes": [
+    {
+      "medicamento_1": "Opioide",
+      "medicamento_2": "Benzodiazepínico",
+      "recomendacao": "Evitar associação",
+      "motivo": "Risco elevado de depressão respiratória, sedação profunda e morte",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["depressao_respiratoria", "morte", "sedacao"],
+      "alternativa_terapeutica": "Evitar sedativos concomitantes; considerar terapias não farmacológicas"
+    },
+    {
+      "medicamento_1": "Opioide",
+      "medicamento_2": "Gabapentinoide",
+      "recomendacao": "Evitar associação",
+      "motivo": "Aumento do risco de depressão respiratória (gabapentina ou pregabalina)",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["depressao_respiratoria", "quedas"],
+      "alternativa_terapeutica": "Monitorar cuidadosamente ou evitar combinação"
+    },
+    {
+      "medicamento_1": "Benzodiazepínico",
+      "medicamento_2": "Outro depressor do SNC",
+      "recomendacao": "Evitar associação",
+      "motivo": "Sedação excessiva e risco aumentado de quedas",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["quedas", "sedacao", "delirium"],
+      "alternativa_terapeutica": "Reduzir dose ou evitar múltiplos sedativos"
+    },
+    {
+      "medicamento_1": "Anticolinérgico",
+      "medicamento_2": "Outro anticolinérgico",
+      "recomendacao": "Evitar uso concomitante",
+      "motivo": "Carga anticolinérgica cumulativa com risco de delirium e declínio cognitivo",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["anticolinergico", "delirium", "declinio_cognitivo"],
+      "alternativa_terapeutica": "Escolher medicamento com menor atividade anticolinérgica"
+    },
+    {
+      "medicamento_1": "Varfarina",
+      "medicamento_2": "AINE",
+      "recomendacao": "Evitar associação",
+      "motivo": "Risco significativo de sangramento gastrointestinal",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["sangramento", "internacao"],
+      "alternativa_terapeutica": "Paracetamol como analgésico preferencial"
+    },
+    {
+      "medicamento_1": "IECA ou BRA",
+      "medicamento_2": "Diurético poupador de potássio",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Risco de hipercalemia",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["hipercalemia", "arritmia"],
+      "alternativa_terapeutica": "Monitorar potássio sérico regularmente"
+    },
+    {
+      "medicamento_1": "ISRS",
+      "medicamento_2": "AINE",
+      "recomendacao": "Usar com cautela",
+      "motivo": "Risco aumentado de sangramento",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["sangramento"],
+      "alternativa_terapeutica": "Considerar proteção gástrica"
+    }
+  ],
+  "ajuste_funcao_renal": [
+    {
+      "substancia": "Nitrofurantoína",
+      "classe": "Antibiótico",
+      "limite_clcr": "< 30 mL/min",
+      "recomendacao": "Evitar",
+      "motivo": "Redução da eficácia e aumento do risco de toxicidade pulmonar e neuropatia",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["neuropatia", "toxicidade_pulmonar"],
+      "alternativa_terapeutica": "Preferir outro antibiótico ajustado à função renal"
+    },
+    {
+      "substancia": "Dabigatrana",
+      "classe": "Anticoagulante oral",
+      "limite_clcr": "< 30 mL/min",
+      "recomendacao": "Evitar",
+      "motivo": "Aumento significativo do risco de sangramento",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["sangramento"],
+      "alternativa_terapeutica": "Considerar ajuste ou anticoagulante alternativo"
+    },
+    {
+      "substancia": "Rivaroxabana",
+      "classe": "Anticoagulante oral",
+      "limite_clcr": "< 15 mL/min",
+      "recomendacao": "Evitar",
+      "motivo": "Acúmulo e risco de sangramento",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["sangramento"],
+      "alternativa_terapeutica": "Avaliar outra estratégia anticoagulante"
+    },
+    {
+      "substancia": "Enoxaparina",
+      "classe": "Heparina de baixo peso molecular",
+      "limite_clcr": "< 30 mL/min",
+      "recomendacao": "Ajustar dose ou evitar",
+      "motivo": "Acúmulo e risco hemorrágico",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["sangramento"],
+      "alternativa_terapeutica": "Ajustar dose conforme ClCr"
+    },
+    {
+      "substancia": "Metformina",
+      "classe": "Biguanida",
+      "limite_clcr": "< 30 mL/min",
+      "recomendacao": "Evitar",
+      "motivo": "Risco de acidose láctica",
+      "forca_recomendacao": "Forte",
+      "nivel_evidencia": "Alto",
+      "riscos": ["acidose_lactica"],
+      "alternativa_terapeutica": "Considerar insulina ou outro antidiabético"
+    },
+    {
+      "substancia": "Gabapentina",
+      "classe": "Anticonvulsivante",
+      "limite_clcr": "< 60 mL/min",
+      "recomendacao": "Ajustar dose",
+      "motivo": "Acúmulo e risco de sedação excessiva",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["sedacao", "quedas"],
+      "alternativa_terapeutica": "Reduzir dose conforme função renal"
+    },
+    {
+      "substancia": "Pregabalina",
+      "classe": "Anticonvulsivante",
+      "limite_clcr": "< 60 mL/min",
+      "recomendacao": "Ajustar dose",
+      "motivo": "Risco de sedação e tontura por acúmulo",
+      "forca_recomendacao": "Moderada",
+      "nivel_evidencia": "Moderado",
+      "riscos": ["quedas", "sedacao"],
+      "alternativa_terapeutica": "Redução proporcional da dose"
+    }
+  ]
+}

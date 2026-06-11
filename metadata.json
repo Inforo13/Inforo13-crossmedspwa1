@@ -1,0 +1,12 @@
+{
+  "name": "CrossMeds-PWA1",
+  "description": "A comprehensive medication management and health tracking Progressive Web App.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

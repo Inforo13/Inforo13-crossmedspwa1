@@ -24,3 +24,6 @@ steps:
 
 images:
   - 'gcr.io/$PROJECT_ID/crossmeds-pwa1:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
